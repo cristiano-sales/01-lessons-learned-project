@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    word-spacing: 20px;
+    word-spacing: 20px; /*Referência: https://www.youtube.com/watch?v=Wa8s97btePw*/
     letter-spacing: 2px;
     text-indent: 20px;
 }
