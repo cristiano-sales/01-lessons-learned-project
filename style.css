@@ -2,6 +2,12 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+p {
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    text-indent: 20px;
+}
+
 #cabecalho {
     position: fixed;
     top: 0px;
@@ -13,7 +19,11 @@ body {
 #titulo {
     margin: 20px;
     padding: 20px;
-    border: 20px solid rgb(3, 39, 243);    
+    border: 20px solid rgb(3, 39, 243);
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-variant: small-caps;
 }
 
 #minha_foto {
@@ -24,12 +34,18 @@ body {
     margin: 30px;
     padding: 30px;
     border: 30px solid rgb(1, 68, 27);
+    font-size: 2em;
+    font-style: italic;
+    color: darkorange;
+    line-height: 40px;
 }
 
 #licoes_a_aprender {
     margin: 30px;
     padding: 30px;
     border: 30px solid rgb(1, 68, 27);
+    color: darkblue;
+    line-height: 20px;
 }
 
 #rodape {
