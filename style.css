@@ -58,3 +58,16 @@ table, th, td {
     border: 1px solid greenyellow;
     border-collapse: collapse;
 }
+
+/*Para os exercícios de posicionamento a referência é https://www.youtube.com/watch?v=9_vFXyvoXPs*/
+.lado-direito {
+    background-color: deepskyblue;
+    display: inline-block;
+    width: 33%;
+}
+
+.lado-esquerdo {
+    background-color: darkorange;
+    display: inline-block;
+    width: 33%;
+}
