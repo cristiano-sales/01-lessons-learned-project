@@ -1,74 +1,72 @@
 body {
-    background-color: rgb(253 , 251 , 251)
+        background-color: rgb(253, 251, 251);
 }
 
 p {
-    word-spacing: 20px; /* Referência: https://www.youtube.com/watch?v=Wa8s97btePw */
-    letter-spacing: 2px;
-    text-indent: 20px
+        word-spacing: 20px; /* Referência: https://www.youtube.com/watch?v=Wa8s97btePw */
+        letter-spacing: 2px;
+        text-indent: 20px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 1px;
-    margin: 10px;
-    padding: 10px;
-    border: 10px solid greenyellow
+        position: fixed;
+        top: 1px;
+        margin: 10px;
+        padding: 10px;
+        border: 10px solid greenyellow;
 }
 
 #titulo {
-    margin: 20px;
-    padding: 20px;
-    border: 20px solid rgb(3 , 39 , 243);
-    font-size: 100px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-    font-variant: small-caps
+        margin: 20px;
+        padding: 20px;
+        border: 20px solid rgb(3, 39, 243);
+        font-size: 100px;
+        font-family: Impact, Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-variant: small-caps;
 }
 
 #minha_foto {
-    width: 100%
+        width: 100%;
 }
 
 #licoes_aprendidas {
-    margin: 30px;
-    padding: 30px;
-    border: 30px solid rgb(1 , 68 , 27);
-    font-size: 2em;
-    font-style: italic;
-    color: darkorange;
-    line-height: 40px
+        margin: 30px;
+        padding: 30px;
+        border: 30px solid rgb(1, 68, 27);
+        font-size: 2em;
+        font-style: italic;
+        color: darkorange;
+        line-height: 40px;
 }
 
 #licoes_a_aprender {
-    margin: 30px;
-    padding: 30px;
-    border: 30px solid rgb(1 , 68 , 27);
-    color: darkblue;
-    line-height: 20px
+        margin: 30px;
+        padding: 30px;
+        border: 30px solid rgb(1, 68, 27);
+        color: darkblue;
+        line-height: 20px;
 }
 
 #rodape {
-    margin: 30px;
-    padding: 30px;
-    border: 30px solid rgb(1 , 68 , 27)
+        margin: 30px;
+        padding: 30px;
+        border: 30px solid rgb(1, 68, 27);
 }
 
-table , th ,td {
-    border: 1px solid greenyellow;
-    border-collapse: collapse
+table, th, td {
+        border: 1px solid greenyellow;
+        border-collapse: collapse;
 }
 
-/* Para os exercícios de posicionamento a referência é 
-https://www.youtube.com/watch?v=9_vFXyvoXPs */
 .lado-direito {
-    background-color: deepskyblue;
-    display: inline-block;
-    width: 33%
+        background-color: deepskyblue; /* Para os exercícios de posicionamento a referência é https://www.youtube.com/watch?v=9_vFXyvoXPs */
+        display: inline-block;
+        width: 33%;
 }
 
 .lado-esquerdo {
-    background-color: darkorange;
-    display: inline-block;
-    width: 33%
+        background-color: darkorange;
+        display: inline-block;
+        width: 33%;
 }
