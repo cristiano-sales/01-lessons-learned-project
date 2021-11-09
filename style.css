@@ -10,7 +10,7 @@ p {
 
 #cabecalho {
   position: fixed;
-  top: 1px;
+  top: 0px;
   margin: 10px;
   padding: 10px;
   border: 10px solid greenyellow;
